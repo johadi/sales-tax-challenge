@@ -55,7 +55,7 @@ class Tax {
 
     computeImportTaxRate(imported){
         if(typeof imported !== 'boolean') {
-            throw new  Error('imported can only be boolean');
+            throw new  Error('imported can only be a boolean');
         }
 
         return imported ? this.#importTaxRate : 0;
@@ -68,7 +68,7 @@ class Tax {
     addToExemptedFromTaxRateCategories(categories) {
         // Add if categories is a string
         if(typeof categories === 'string') {
-            this.addToExemptedTypes(categories);
+            this.addToExemptedCategories(categories);
         }
 
         // If categories is array, verify and add each item
