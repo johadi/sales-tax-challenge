@@ -1,0 +1,5 @@
+[
+  {"name": "book", "price": 12.49, "quantity": 2, "category": "book", "imported": false},
+  {"name": "music CD", "price": 14.99, "quantity": 1, "category": "other", "imported": false},
+  {"name": "chocolate", "price": 0.85, "quantity": 1, "category": "food", "imported": false}
+]
