@@ -90,7 +90,7 @@ describe("Sales Tax with sales tax rate of 10% and import duty of 5%", () => {
     describe("Testing with combination of inputs", () => {
 
         describe("input 1", () =>  {
-            it("should return Total: 29.83, Sales Taxes: 1.50 with correct individual prices", () =>  {
+            it("should return Total: 42.32, Sales Taxes: 1.50 with correct individual prices", () =>  {
 
                 const input1 = [
                     {name: "book", price: 12.49, quantity: 2, category: "book", imported: false},
@@ -132,7 +132,7 @@ describe("Sales Tax with sales tax rate of 10% and import duty of 5%", () => {
 
 
         describe("input 3", () =>  {
-            it("should return Total: 74.68, Sales Tax: 6.70 with correct individual prices", () =>  {
+            it("should return Total: 98.38, Sales Tax: 7.90 with correct individual prices", () =>  {
 
                 const input3 = [
                     {name: "1 imported bottle of perfume", price: 27.99, quantity: 1, category: "other", imported: true},
