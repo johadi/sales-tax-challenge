@@ -128,7 +128,7 @@ The test file is located within the `tests` folder in the project's root folder.
 
 Install the test dependencies with the following command:
 
-```bash
+```
 npm install
 ```
 Run the following command  for the tests:
