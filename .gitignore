@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+*.xml
+
+/node_modules
